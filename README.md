@@ -2,7 +2,9 @@
 
 > CS utopia is an app which introduces Computer Science for begginers. We provides introduction to several crucial modules in IT. User can either start learning with interactive assignments or reading introduction to get some knowledge of particular topic. Basically, our app helps students to get acquainted with CS and decide if they want to start their way in IT.
 
-## Frontend
+## Frontend 
+- link to [deploy](https://cs-utopia.up.railway.app)
+- link to original [repo](https://github.com/podnesTaF/cs-utopia-7.2) which was deployed
 
 ### User experience:
 
@@ -27,6 +29,9 @@
 ---
 
 ## CS utopia backend
+
+- API [link](http://ps-utopia-server.up.railway.app/api)
+- Link to original [repo](https://github.com/podnesTaF/cs-utopia-server) which was deployed
 
 > Backend part for cs utopia
 
