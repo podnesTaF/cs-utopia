@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_collor_successes",
+  "info": {
+    "displayName": "success"
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "string"
+    },
+    "light": {
+      "type": "string"
+    },
+    "dark": {
+      "type": "string"
+    }
+  }
+}

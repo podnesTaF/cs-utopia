@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers",
+  "info": {
+    "singularName": "answer",
+    "pluralName": "answers",
+    "displayName": "Answer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isCorrect": {
+      "type": "boolean",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "question": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::question.question",
+      "inversedBy": "answers"
+    },
+    "position": {
+      "required": false,
+      "type": "integer"
+    },
+    "box": {
+      "type": "string"
+    }
+  }
+}

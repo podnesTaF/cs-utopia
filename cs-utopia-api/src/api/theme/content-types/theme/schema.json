@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "Theme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primary": {
+      "displayName": "primary",
+      "type": "component",
+      "repeatable": false,
+      "component": "collor.primary"
+    },
+    "secondary": {
+      "displayName": "secondary",
+      "type": "component",
+      "repeatable": false,
+      "component": "collor.secondary"
+    },
+    "success": {
+      "displayName": "success",
+      "type": "component",
+      "repeatable": false,
+      "component": "collor.success"
+    },
+    "modules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module",
+      "mappedBy": "theme"
+    }
+  }
+}

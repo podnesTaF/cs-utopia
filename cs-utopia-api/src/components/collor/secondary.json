@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_collor_secondaries",
+  "info": {
+    "displayName": "secondary"
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "string"
+    },
+    "light": {
+      "type": "string"
+    },
+    "dark": {
+      "type": "string"
+    }
+  }
+}
